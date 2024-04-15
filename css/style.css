@@ -1,0 +1,30 @@
+*, *::before, *::after{
+	box-sizing: border-box;
+}
+
+/* Typography */
+html{
+	font-size:62.5%
+}
+body{
+	font-size: 1.6rem;
+	font-family: "Open Sans", sans-serif;;
+	line-height: 1.5;
+}
+h1, h2, h3{
+	line-height: 1.1;
+	font-weight: 400;
+	margin: 0;
+}
+h1{
+	font-size: 4.76rem;
+}
+h2{
+	font-size: 3.96rem;
+}
+h3{
+	font-size:3.31rem
+}
+P{
+	margin:2rem 0
+}
