@@ -1,8 +1,8 @@
 :root{
---color-primary:#483D8B;
---color-secondary:#005C4A;
---color-accent:#812F00;
---color-background:#CEE7EC;
+--color-primary:rgb(72, 61, 139);
+--color-secondary:rgb(0, 92, 74);
+--color-accent:rgb(129, 47, 0);
+--color-background:rgba(234, 252, 255, 0.6);
 --border-radius:7px;
 --opacity:.9;
 }
@@ -39,7 +39,7 @@ h3{
 	font-size:3.31rem;
 }
 P{
-	margin:2rem 0;
+	margin:2rem 0 2.5rem;
 	letter-spacing: 1px;
 }
 a{
@@ -93,7 +93,7 @@ input, textarea{
 	border: 1px solid #ccc;
 	border-radius: var(--border-radius);
 	padding: 1rem 1.5rem;
-	margin: .7rem 0;
+	margin-bottom: 1.5rem;
 	font-size: 1.6rem;
 }
 
@@ -110,6 +110,17 @@ input, textarea{
 .list{
 	list-style: none;
 	padding: 0;
+}
+
+/* block */
+.block{
+	padding: 1.5rem;
+}
+.block__heading{
+	margin-bottom: 2.5rem;
+}
+.block--background{
+	background: var(--color-background);
 }
 
 @media screen and (min-width:1024px) {
