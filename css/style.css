@@ -37,3 +37,17 @@ P{
 	margin:2rem 0;
 	letter-spacing: 1px;
 }
+
+/* link */
+.link{
+	display: block;
+	text-decoration: none;
+	text-transform: capitalize;
+	color: var(--color-accent);
+}
+.link--bold{
+	font-weight: 600;
+}
+.link:hover{
+	opacity: .8;
+}
