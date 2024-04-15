@@ -6,7 +6,10 @@
 --border-radius:7px;
 --opacity:.9;
 }
-
+::placeholder{
+	color: #ccc;
+	letter-spacing: 1px;
+}
 *, *::before, *::after{
 	box-sizing: border-box;
 }
@@ -46,6 +49,10 @@ button{
 	outline: none;
 	border: none;
 }
+input, textarea{
+	outline: none;
+	border: none;
+}
 
 /* link */
 .link{
@@ -80,6 +87,15 @@ button{
 	color: #fff;
 }
 
+/* inputs */
+.input{
+	width: 100%;
+	border: 1px solid #ccc;
+	border-radius: var(--border-radius);
+	padding: 1rem 1.5rem;
+	margin: .7rem 0;
+	font-size: 1.6rem;
+}
 
 @media screen and (min-width:1024px) {
 	body{
@@ -96,5 +112,8 @@ button{
 	}
 	.btn{
 		font-size: 1.5rem;
+	}
+	.input{
+		font-size: 1.4rem;
 	}
 }
