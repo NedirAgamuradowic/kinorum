@@ -3,6 +3,8 @@
 --color-secondary:#005C4A;
 --color-accent:#812F00;
 --color-background:#CEE7EC;
+--border-radius:7px;
+--opacity:.9;
 }
 
 *, *::before, *::after{
@@ -37,11 +39,13 @@ P{
 	margin:2rem 0;
 	letter-spacing: 1px;
 }
+a{
+	text-decoration: none;
+}
 
 /* link */
 .link{
 	display: block;
-	text-decoration: none;
 	text-transform: capitalize;
 	color: var(--color-accent);
 }
@@ -49,5 +53,34 @@ P{
 	font-weight: 600;
 }
 .link:hover{
-	opacity: .8;
+	opacity: var(--opacity);
+}
+
+/* button */
+.btn{
+	border-radius: var(--border-radius);
+	border: none;
+	cursor: pointer;
+	display: block;
+	font-size: 1.8rem;
+	letter-spacing: 1px;
+	line-height: inherit;
+	outline: none;
+	padding: 1.2rem;
+	text-align: center;
+	width: 100%;
+}
+.btn:hover{
+	opacity: var(--opacity);
+}
+.btn--primary{
+	background: var(--color-primary);
+	color: #fff;
+}
+
+
+@media screen and (min-width:1024px) {
+	.btn{
+		font-size: 1.5rem;
+	}
 }
