@@ -42,6 +42,10 @@ P{
 a{
 	text-decoration: none;
 }
+button{
+	outline: none;
+	border: none;
+}
 
 /* link */
 .link{
@@ -59,13 +63,11 @@ a{
 /* button */
 .btn{
 	border-radius: var(--border-radius);
-	border: none;
 	cursor: pointer;
 	display: block;
 	font-size: 1.8rem;
 	letter-spacing: 1px;
-	line-height: inherit;
-	outline: none;
+	line-height: inherit;	
 	padding: 1.2rem;
 	text-align: center;
 	width: 100%;
@@ -80,6 +82,18 @@ a{
 
 
 @media screen and (min-width:1024px) {
+	body{
+		font-size: 1.4rem;
+	}
+	h1{
+		font-size: 3.76rem;
+	}
+	h2{
+		font-size: 2.96rem;
+	}
+	h3{
+		font-size:2.31rem;
+	}
 	.btn{
 		font-size: 1.5rem;
 	}
