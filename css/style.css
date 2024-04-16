@@ -136,14 +136,14 @@ input, textarea{
 /* block */
 .block{
 	padding: 2.5rem;
-	border-radius: var(--border-radius);
-	box-shadow: 0 0 2px 2px #eee;
+	border-radius: var(--border-radius);	
 }
 .block__heading{
 	margin-bottom: 2.5rem;
 }
 .block--background{
 	background: var(--color-background);
+	box-shadow: 0 0 2px 2px #eee;
 }
 
 /* flex */
@@ -263,6 +263,11 @@ input, textarea{
 }
 .sidebar .block{
 	margin: 1rem 0;
+}
+
+/* contact */
+.contact__link{
+	display: inline-block;
 }
 
 @media screen and (min-width:600px){
