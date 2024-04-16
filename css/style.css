@@ -53,6 +53,18 @@ input, textarea{
 	outline: none;
 	border: none;
 }
+/* container */
+.container{
+	width: 100%;
+	max-width: 1100px;
+	margin: 0 auto;
+ }
+.flex{
+	display: flex;
+}
+.grid{
+	display: grid;
+}
 
 /* link */
 .link{
@@ -123,6 +135,7 @@ input, textarea{
 /* block */
 .block{
 	padding: 2.5rem;
+	border: 1px solid red;
 }
 .block__heading{
 	margin-bottom: 2.5rem;
@@ -132,17 +145,9 @@ input, textarea{
 }
 
 /* flex */
-.flex{
-	display: flex;
-}
 .flex--coloumn{
-	display: flex;
 	flex-direction: column;
 	justify-content: space-evenly;
-}
-/* grid */
-.grid{
-	display: grid;
 }
 
 /* content */
@@ -157,12 +162,7 @@ input, textarea{
 	text-align: left;
 }
 
-/* container */
- .container{
-	width: 100%;
-	max-width: 1100px;
-	margin: 0 auto;
- }
+
 
 
 @media screen and (min-width:600px){
@@ -174,7 +174,7 @@ input, textarea{
 		float: left;
 		margin-right: 1.5rem;
 		margin-bottom: 1rem;
-		height: 70vh;
+		height: 65vh;
 		width: auto;
 	}
 	.content__btn{
@@ -185,7 +185,7 @@ input, textarea{
 
 @media screen and (min-width:768px) {
 	.grid--main{
-		grid-template-columns: 1fr 300px;
+		grid-template-columns: 1fr 280px;
 	}
 }
 
@@ -214,5 +214,9 @@ input, textarea{
 	}
 	.content__text{
 		font-size: 1.6rem;
+	}
+	.content__img{
+		height: 50vh;
+		width: auto;
 	}
 }
