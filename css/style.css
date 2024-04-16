@@ -88,7 +88,7 @@ input, textarea{
 	font-size: 1.8rem;
 	letter-spacing: 1px;
 	line-height: inherit;	
-	padding: 1.2rem;
+	padding: .7rem;
 	text-align: center;
 	text-transform: capitalize;
 	width: 100%;
@@ -137,6 +137,7 @@ input, textarea{
 /* block */
 .block{
 	padding: 2.5rem;
+	border-radius: var(--border-radius);
 }
 .block__heading{
 	margin-bottom: 2.5rem;
@@ -255,6 +256,7 @@ input, textarea{
 
 
 @media screen and (min-width:768px) {
+	
 	.grid--main{
 		grid-template-columns: 1fr 280px;
 	}
@@ -293,6 +295,7 @@ input, textarea{
 	.footer__nav-link:hover{
 		opacity: 1;
 	}
+	
 }
 
 
