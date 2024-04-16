@@ -135,7 +135,7 @@ input, textarea{
 
 /* block */
 .block{
-	padding: 2.5rem;
+	padding: 1rem 1.5rem;
 	border-radius: var(--border-radius);	
 }
 .block__heading{
@@ -246,10 +246,10 @@ input, textarea{
 
 /* new film box */
 .new-film__img{
-	height: 60vh;
-	width: auto;
+	height: 40vh;
 	display: block;
 	margin: 0 auto;
+	object-fit: top;
 }
 
 /* rate box */
@@ -260,6 +260,7 @@ input, textarea{
 /* sidebar */
 .sidebar{
 	padding: .5rem;
+	display: none;
 }
 .sidebar .block{
 	margin: 1rem 0;
@@ -268,6 +269,9 @@ input, textarea{
 /* contact */
 .contact__link{
 	display: inline-block;
+}
+.main{
+	margin: 1.5rem 0;
 }
 
 @media screen and (min-width:600px){
@@ -294,7 +298,7 @@ input, textarea{
 @media screen and (min-width:768px) {
 	
 	.grid--main{
-		grid-template-columns: 1fr 280px;
+		grid-template-columns: 1fr 250px;
 	}
 	.menubar{
 		display: none;
@@ -331,6 +335,9 @@ input, textarea{
 	.footer__nav-link:hover{
 		opacity: 1;
 	}
+	.sidebar{
+		display: block;
+	}
 	
 }
 
@@ -353,9 +360,6 @@ input, textarea{
 	}
 	.input{
 		font-size: 1.4rem;
-	}
-	.grid--main{
-		grid-template-columns: 1fr 400px;
 	}
 	.content__text{
 		font-size: 1.6rem;
