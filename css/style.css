@@ -87,11 +87,11 @@ input, textarea{
 	display: block;
 	font-size: 1.8rem;
 	letter-spacing: 1px;
-	line-height: inherit;	
 	padding: .7rem;
 	text-align: center;
 	text-transform: capitalize;
 	width: 100%;
+	margin: 1rem 0 1rem;
 }
 .btn:hover{
 	opacity: var(--opacity);
@@ -131,7 +131,6 @@ input, textarea{
 .img{
 	width: 100%;
 	max-width: 300px;
-	margin: 0 auto;
 }
 
 /* block */
@@ -234,9 +233,6 @@ input, textarea{
 }
 
 /* login box */
-.login__btn{
-	margin: 1rem 0 1rem;
-}
 .link.login__link{
 	opacity: .5;
 }
@@ -245,6 +241,14 @@ input, textarea{
 }
  .login__link:last-child{
 	text-align: center;
+}
+
+/* new film box */
+.new-film__img{
+	height: 60vh;
+	width: auto;
+	display: block;
+	margin: 0 auto;
 }
 
 @media screen and (min-width:600px){
