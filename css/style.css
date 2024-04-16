@@ -137,6 +137,7 @@ input, textarea{
 .block{
 	padding: 2.5rem;
 	border-radius: var(--border-radius);
+	box-shadow: 0 0 2px 2px #eee;
 }
 .block__heading{
 	margin-bottom: 2.5rem;
@@ -254,6 +255,14 @@ input, textarea{
 /* rate box */
 .rate__item{
 	margin-top: 1.3rem;
+}
+
+/* sidebar */
+.sidebar{
+	padding: .5rem;
+}
+.sidebar .block{
+	margin: 1rem 0;
 }
 
 @media screen and (min-width:600px){
