@@ -14,5 +14,15 @@
       rel="stylesheet"
     />
   </head>
-  <body></body>
+  <body>
+
+    <script>
+      const menubar = document.getElementById("menubar");
+      const nav = document.getElementById("nav");
+      menubar.addEventListener("click", myFunction);
+      function myFunction() {
+        nav.classList.toggle("show");
+      }
+    </script>
+  </body>
 </html>

@@ -53,6 +53,7 @@ input, textarea{
 	outline: none;
 	border: none;
 }
+
 /* container */
 .container{
 	width: 100%;
@@ -123,6 +124,7 @@ input, textarea{
 .list{
 	list-style: none;
 	padding: 0;
+	margin: 0;
 }
 
 /* img */
@@ -135,7 +137,6 @@ input, textarea{
 /* block */
 .block{
 	padding: 2.5rem;
-	border: 1px solid red;
 }
 .block__heading{
 	margin-bottom: 2.5rem;
@@ -148,6 +149,10 @@ input, textarea{
 .flex--coloumn{
 	flex-direction: column;
 	justify-content: space-evenly;
+}
+.flex--row{
+	justify-content: space-between;
+	align-items: center;
 }
 
 /* content */
@@ -162,7 +167,45 @@ input, textarea{
 	text-align: left;
 }
 
-
+/* header */
+.header{
+	background: var(--color-primary);
+}
+.header .flex--row{
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1.5rem;
+}
+.logo{
+	font-size: 3rem;
+}
+.logo__link{
+	color: #fff;
+}
+.menubar{
+	width: 30px;
+	filter: invert(100%);
+	cursor: pointer;
+	outline: none;
+}
+.nav{
+	max-height: 0;
+	flex-basis: 100%;
+	text-transform: capitalize;
+	transition: max-height 1s linear;
+}
+.nav.show{
+	max-height: 100vw;
+}
+.nav__link{
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+	font-size: 2rem;
+	margin-top: 1.5rem;
+	color: #fff;
+}
 
 
 @media screen and (min-width:600px){
@@ -186,6 +229,26 @@ input, textarea{
 @media screen and (min-width:768px) {
 	.grid--main{
 		grid-template-columns: 1fr 280px;
+	}
+	.menubar{
+		display: none;
+	}
+	.nav{
+		max-height: 100vh;
+		flex-basis: auto;
+	}
+	.nav__item{
+		display: inline-block;
+	}
+	.nav__link{
+		margin-top: 0;
+		margin-right: 1.5rem;
+		font-size: 1.6rem;
+		opacity: .7;
+		transition: opacity .5s;
+	}
+	.nav__link:hover{
+		opacity: 1;
 	}
 }
 
@@ -218,5 +281,8 @@ input, textarea{
 	.content__img{
 		height: 50vh;
 		width: auto;
+	}
+	.nav__link{
+		margin-left: 2rem;
 	}
 }
