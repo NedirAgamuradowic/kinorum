@@ -36,7 +36,7 @@ h2{
 	font-size: 3.96rem;
 }
 h3{
-	font-size:3.31rem;
+	font-size:2.5rem;
 }
 P{
 	margin:2rem 0 2.5rem;
@@ -106,7 +106,7 @@ input, textarea{
 	width: 100%;
 	border: 1px solid #ccc;
 	border-radius: var(--border-radius);
-	padding: 1rem 1.5rem;
+	padding: .8rem 1.5rem;
 	margin-bottom: 1.5rem;
 	font-size: 1.6rem;
 }
@@ -233,6 +233,19 @@ input, textarea{
 	font-size: 1.1rem;
 }
 
+/* login box */
+.login__btn{
+	margin: 1rem 0 1rem;
+}
+.link.login__link{
+	opacity: .5;
+}
+.link.login__link:hover{
+	opacity: var(--opacity)
+}
+ .login__link:last-child{
+	text-align: center;
+}
 
 @media screen and (min-width:600px){
 	.content__heading{
@@ -310,7 +323,7 @@ input, textarea{
 		font-size: 2.96rem;
 	}
 	h3{
-		font-size:2.31rem;
+		font-size:2rem;
 	}
 	.btn{
 		font-size: 1.5rem;
