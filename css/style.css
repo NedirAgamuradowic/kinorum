@@ -4,7 +4,7 @@
 --color-accent:rgb(129, 47, 0);
 --color-background:rgba(234, 252, 255, 0.6);
 --border-radius:7px;
---opacity:.9;
+--opacity:.8;
 }
 ::placeholder{
 	color: #ccc;
@@ -249,6 +249,11 @@ input, textarea{
 	width: auto;
 	display: block;
 	margin: 0 auto;
+}
+
+/* rate box */
+.rate__item{
+	margin-top: 1.3rem;
 }
 
 @media screen and (min-width:600px){
