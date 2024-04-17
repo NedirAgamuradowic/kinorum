@@ -275,6 +275,30 @@ input, textarea{
 	margin: 1.5rem 1rem;
 }
 
+/* table */
+th, td{
+	padding: 1rem;
+}
+.table{
+	border-collapse: collapse;
+	width: 100%;
+}
+.table__head{
+	background: var(--color-primary);
+	color: #fff;
+	font-size: 1.8rem;
+}
+.table__body{
+	text-align: center;
+	color: var(--color-secondary);
+}
+.table__body tr:nth-child(even){
+	background: var(--color-background);
+}
+.table .year, .table .director{
+	display: none;
+}
+
 @media screen and (min-width:600px){
 	.content__heading{
 		text-align: left;
@@ -294,7 +318,6 @@ input, textarea{
 		flex-direction: row;
 	}
 }
-
 
 @media screen and (min-width:768px) {
 	
@@ -345,9 +368,10 @@ input, textarea{
 		width: auto;
 		margin-bottom: .5rem;
 	}
-	
+	.table .year, .table .director{
+		display: block;
+	}
 }
-
 
 @media screen and (min-width:1024px) {
 	body{
