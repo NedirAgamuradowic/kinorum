@@ -308,6 +308,14 @@ th, td{
 	justify-self: center;
 }
 
+/* posts */
+.posts{
+	margin: 2rem 0;
+}
+.posts .block__heading{
+	font-size: 2.1rem;
+}
+
 @media screen and (min-width:400px) {
 	.new__grid{
 		grid-template-columns: repeat(2, 1fr);
@@ -391,6 +399,9 @@ th, td{
 	}
 	.new__grid{
 		grid-template-columns: repeat(4, 1fr);
+	}
+	.posts .block__heading{
+		font-size: 2.6rem;
 	}
 }
 
