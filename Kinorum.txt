@@ -1,0 +1,232 @@
+
+                ----FILMS/SERIES----
+Batman
+2022
+Matt Reeves
+
+After two years of searching for justice on the streets of Gotham,
+Batman becomes the personification of merciless retribution for the
+townspeople. When the city suffers a series of brutal attacks on
+high-ranking officials, clues lead Bruce Wayne into the darkest
+corners of the underworld, where he meets Catwoman, the Penguin,
+Carmine Falcone and the Riddler. Now Batman himself is under the
+gun, having to distinguish friend from foe and restore justice in
+the name of Gotham.
+
+IMDb: 7.80
+
+-----------------------------------------------------------------
+
+Dune: Part Two
+2024
+Denis Villeneuve
+
+Paul Atreides unites with Chani and the Fremen while on a warpath
+of revenge against the conspirators who destroyed his family.
+Facing a choice between the love of his life and the fate of
+the known universe, he endeavors to prevent a terrible future
+only he can foresee. Duke Paul Atreides joins the Fremen to become
+Muad'Dib while trying to stop the advance of war.
+
+IMDb: 8.80
+
+-----------------------------------------------------------------
+
+Kung Fu Panda 4
+2024
+Mike Mitchell
+
+After Po is tapped to become the Spiritual Leader of the Valley
+of Peace, he needs to find and train a new Dragon Warrior, while
+a wicked sorceress plans to re-summon all the master villains
+whom Po has vanquished to the spirit realm.Po is gearing up to
+become the spiritual leader of his Valley of Peace, but also
+needs someone to take his place as Dragon Warrior. As such,
+he will train a new kung fu practitioner for the spot and
+villains from the past.
+
+IMDb: 6.40
+
+--------------------------------------------------------------
+
+Mad Max: Fury Road
+2015
+George Miller
+
+Haunted by the ghosts of a troubled past, Max is convinced
+that the best way to survive is to wander alone. Despite this,
+he joins the rebels fleeing across the desert in a combat truck,
+led by the desperate Furiosa. They escaped from the Citadel,
+suffering from the tyranny of Immortan Joe, and took something
+very valuable from him. The enraged dictator throws all his forces
+in pursuit of the rebels, setting foot on the warpath - the road of
+rage.
+
+IMDb: 8.10
+
+-----------------------------------------------------------------
+
+The walking Dead
+2010-2021
+Greg Nicotero
+
+A zombie epidemic has swept the planet. Sheriff Rick Grimes
+travels with his family and a small group of survivors in
+search of safety. But the constant fear of death brings heavy
+losses every day, making fellow sufferers feel the depths of
+human cruelty. Rick tries to save his loved ones and realizes
+that the all-consuming fear of people can be more dangerous
+than the walking dead.
+
+IMDb: 8.10
+
+---------------------------------------------------------------
+
+Silicon Valley
+2014-2019
+Mike Judge
+
+The story is about a group of geeks preparing to launch
+their own startups in the high-tech center of San Francisco.
+Silicon Valley charts the rising fortunes of Richard,
+an introverted computer programmer who lives in a Hacker
+Hostel start-up incubator alo. The main characters of the
+series live for free in the house of a local millionaire,
+but in return they will have to give 10% of the profits
+from future projects
+
+IMDb: 8.50
+
+-------------------------------------------------------------
+
+The Mandalorian
+2019-....
+Rick Famuyiwa
+
+A lone Mandalorian mercenary lives on the edge of the
+inhabited galaxy, where the law of the New Republic
+does not reach. A representative of the once mighty
+race of noble warriors is now forced to eke out
+a miserable existence among the dregs of society.
+According to screenwriter Dave Filoni, one scene
+required a lot of stormtroopers, but there weren't
+enough costumes for everyone.
+
+IMDb: 8.70
+
+------------------------------------------------------------
+
+How I Met your mother
+2005-2014
+Pamela Fryman
+
+“How I Met Your Mother” is a comedy about Ted and
+how he fell in love. All the trouble begins when
+Ted's best friend, Marshall, unexpectedly announces
+that he wants to propose to his long-time girlfriend
+Lily, a kindergarten teacher. By then, Ted realizes
+that he needs to try harder if he really hopes to
+find his true love. Helping him in this search is
+his friend Barney.
+
+
+IMDb: 8.30
+
+-------------------------------------------------------------
+
+
+                 -----RATE-----
+
+       NAME                   YEAR             RATE
+
+The Mandalorian             2019-...           8.70
+Silicon Valley              2014-2019          8.50       
+How I Met your mother       2005-2014          8.30
+The walking Dead            2010-2021          8.10
+
+--------------------------------------------------------------
+
+
+Dune: Part Two              2024               8.80 
+Mad Max: Fury Road          2015               8.10
+Batman                      2022               7.80
+Kung Fu Panda 4             2024               6.40    
+
+
+
+                --HOME--
+
+“X-Men ‘97” - the triumphant return of the
+animated series of our childhood
+
+On March 20, the animated series X-Men '97 launched
+on Disney+ - a direct continuation of the cult
+animated show of the 1990s. Kinopoisk tells what
+happened in the first two episodes, who made them
+and how you can evaluate the return of the animated series.
+
+-----------------------------------------------------------------
+
+The series "Shogun" is an unconditional hit,
+which everyone compares to "Game of Thrones".
+
+A new adaptation of James Clavell’s novel “Shogun”
+has premiered on Hulu. The first episodes of the
+series received positive reviews from the press,
+and the rating of the new product on Rotten Tomatoes
+is 100%. We'll tell you what it is and why the show
+has every chance of becoming one of the main releases
+of this year.
+
+
+------------------------------------------------------------
+
+Contact us 
+
+Send your feedback about KINORUM movie portal
+
+
+
+KINORUM
+Feel The Magic Of Movie.
+
+-----------------------------------------------------------
+
+Color pallette
+
+--color-primary:      #483D8B
+--color-secondary:    #005C4A
+--color-accent:       #812F00
+--color-background:   #CEE7EC
+
+------------------------------------------------------------
+
+
+Typography
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+   href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+   rel="stylesheet"
+/>
+
+
+
+font-family: "Open Sans", sans-serif;
+
+html:62.5%
+
+body: 1.6rem
+
+h1 : 4.76rem
+
+h2 : 3.96rem
+
+h3 : 3.31rem 
+
+line-height 1.5
+heading     1.1
+
+---------------------------------------------------------
