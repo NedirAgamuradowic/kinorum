@@ -299,6 +299,21 @@ th, td{
 	display: none;
 }
 
+/* new  */
+.new__grid{
+	gap: 1rem;
+}
+.new__movie{
+	border-radius: var(--border-radius);
+	justify-self: center;
+}
+
+@media screen and (min-width:400px) {
+	.new__grid{
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
 @media screen and (min-width:600px){
 	.content__heading{
 		text-align: left;
@@ -373,6 +388,9 @@ th, td{
 	}
 	.rating.grid--main{
 		gap: .5rem;
+	}
+	.new__grid{
+		grid-template-columns: repeat(4, 1fr);
 	}
 }
 
