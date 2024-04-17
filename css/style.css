@@ -298,6 +298,9 @@ th, td{
 .table .year, .table .director{
 	display: none;
 }
+.table__body .name{
+	text-align: left;
+}
 
 /* new  */
 .new__grid{
@@ -326,6 +329,7 @@ th, td{
 	.content__heading{
 		text-align: left;
 		margin-top: 1rem;
+		font-size: 3.2rem;
 	}
 	.content__img{
 		float: left;
@@ -394,7 +398,7 @@ th, td{
 	.table .year, .table .director{
 		display: block;
 	}
-	.table__body .name, .table__body .year, .table__body .director{
+	.table__body .year, .table__body .director{
 		text-align: left;
 	}
 	.rating.grid--main{
