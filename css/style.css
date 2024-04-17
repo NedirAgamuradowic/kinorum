@@ -250,7 +250,6 @@ input, textarea{
 	height: 40vh;
 	display: block;
 	margin: 0 auto;
-	object-fit: top;
 }
 
 /* rate box */
@@ -290,6 +289,7 @@ th, td{
 }
 .table__body{
 	text-align: center;
+	font-size: 1.7rem;
 	color: var(--color-secondary);
 }
 .table__body tr:nth-child(even){
@@ -393,6 +393,9 @@ th, td{
 	}
 	.table .year, .table .director{
 		display: block;
+	}
+	.table__body .name, .table__body .year, .table__body .director{
+		text-align: left;
 	}
 	.rating.grid--main{
 		gap: .5rem;
