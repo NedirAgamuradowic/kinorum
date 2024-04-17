@@ -371,6 +371,9 @@ th, td{
 	.table .year, .table .director{
 		display: block;
 	}
+	.rating.grid--main{
+		gap: .5rem;
+	}
 }
 
 @media screen and (min-width:1024px) {
@@ -410,4 +413,5 @@ th, td{
 		height: 45vh;
 		width: auto;
 	}
+	
 }
